@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect} from 'react'
 import '../App.css'
-import Nav from './Nav'
+
 
 
 
@@ -46,7 +46,6 @@ return(
   <>
 <div className='container'>
 
-<Nav />
 
 <main>
 
@@ -59,7 +58,7 @@ news.map(news=>
 <div className='news-card'>
 
 <div class='news-picture'>
-<img src={news.urlToImage}></img>
+<img src={news.urlToImage} alt="news"></img>
 </div>
 
 <div className='news-text'>
