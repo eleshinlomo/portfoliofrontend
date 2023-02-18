@@ -14,7 +14,7 @@ const [news, setNews] = useState([])
 
   useEffect(()=>{
       
-     fetch('http://localhost:3300/api/news', {
+     fetch('https://portbackend.herokuapp.com/api/news', {
       method: "GET",
       mode: "cors",
       
