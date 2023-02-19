@@ -55,8 +55,8 @@ return(
 news.map(news=>
 <div className='news-card'>
 
-<div class='news-picture'>
-<img src={news.urlToImage} alt="news"></img>
+<div class='news-image-holder'>
+<img src={news.urlToImage} alt="news" className='news-image'></img>
 </div>
 
 <div className='news-text'>
