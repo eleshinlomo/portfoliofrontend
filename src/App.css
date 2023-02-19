@@ -6,6 +6,7 @@
   grid-template-rows: auto;
   height: 100%;
   min-width: 100vh;
+  background-color: black;
 }
 
 .news-main{
@@ -37,7 +38,7 @@
   height: 100%;
   width: 100%;
   grid-template-columns: auto auto auto auto;
-  grid-auto-flow: column;
+  grid-auto-flow: row;
   
 }
 
@@ -107,26 +108,5 @@
 
 
 
-
-
-
-@media (max-width: 500px) {
-  
-  .contianer{
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
-
-
-
-  .nav-list{
-    display: grid;
-    gap: 4rem;
-    
-  }
-
-  
-}
 
 
