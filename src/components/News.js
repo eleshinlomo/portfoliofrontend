@@ -6,6 +6,7 @@ import '../App.css'
 
 
 
+
 function News() {
 
   
@@ -43,13 +44,10 @@ const [news, setNews] = useState([])
 
 return(
     
-  <>
-<div className='container'>
+  
 
 
-<main>
-
-
+<div className='news-main'>
 
 
 {news?
@@ -75,16 +73,14 @@ news.map(news=>
 }
 
 
-
-
-</main>
-{/* Main */}
-
 </div>
-{/* Container */}
 
 
-    </>
+
+
+
+
+    
   
     
 )
