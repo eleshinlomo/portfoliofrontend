@@ -17,15 +17,39 @@ main{
 }
 
 .nav{
-  text-align: center;
-  background-color: black;
-  color: white;
+  
+  background-color: gray;
+  color: black;
   height: 5rem;
   flex-basis: 100%;
-  text-align: center;
   display: block;
   font-size: small;
+  padding: 1rem 1rem;
  
+}
+
+.nav-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  
+}
+
+.nav-list-item{
+  
+}
+.nav-a{
+  border-bottom: 5px solid blueviolet;
+}
+
+.nav-a:hover{
+  border-bottom: 5px solid white;
+}
+
+.nav-a{
+  color: black;
+  font-weight: bolder;
+  font-size: medium;
 }
 
 .news-card{
