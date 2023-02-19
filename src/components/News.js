@@ -62,8 +62,8 @@ news.map(news=>
 <div className='news-text'>
 <h2>{news.title}</h2>
 <p>{news.content}</p>
-<a href={news.url}>{news.url}</a>
-<h2>Posted: {news.publishedAt}</h2>
+<h4>Posted on: {news.publishedAt}</h4>
+<button><a href={news.url}>READ MORE</a></button>
 </div>
 
 </div>
