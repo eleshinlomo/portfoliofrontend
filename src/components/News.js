@@ -63,7 +63,7 @@ news.map(news=>
 <h2>{news.title}</h2>
 <p>{news.content}</p>
 <h4>Posted on: {news.publishedAt}</h4>
-<button><a href={news.url}>READ MORE</a></button>
+<button className='read-more-btn'><a href={news.url}>READ MORE</a></button>
 </div>
 
 </div>

@@ -71,6 +71,10 @@
   width: 100%;
 }
 
+.read-more-btn{
+  background-color: crimson;
+}
+
 .news-text{
   
   height: 100%;
