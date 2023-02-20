@@ -20,7 +20,7 @@
   width: auto;
   padding: 1rem 1rem;
   background-color: black;
-  border: 5px solid crimson;
+  
   
 }
 
@@ -32,7 +32,6 @@
   gap: 1rem;
   background-color: black;
   padding: 1rem 1rem;
-  border: 5px solid white;
   height: 100%;
   width: auto;
 }
@@ -202,7 +201,7 @@
     width: auto;
     padding: 1rem 1rem;
     background-color: black;
-    border: 5px solid crimson;
+    
     
   }
 
@@ -214,7 +213,6 @@
     gap: 1rem;
     background-color: black;
     padding: 1rem 1rem;
-    border: 5px solid white;
     height: 100%;
     width: auto;
   }
