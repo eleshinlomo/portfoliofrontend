@@ -41,6 +41,7 @@ const [news, setNews] = useState([])
      
     },[])
 
+  
 
 return(
     
@@ -52,7 +53,7 @@ return(
 
 {news?
 
-news.map(news=>
+news.slice(0, 8).map(news=>
 <div className='news-card'>
 
 <div class='news-image-holder'>
@@ -61,7 +62,6 @@ news.map(news=>
 
 <div className='news-text'>
 <h2>{news.title}</h2>
-<p>{news.content}</p>
 <h4>Posted on: {news.publishedAt}</h4>
 <button className='read-more-btn'><a href={news.url}>READ MORE</a></button>
 </div>
