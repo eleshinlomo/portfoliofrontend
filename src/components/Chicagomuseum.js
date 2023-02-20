@@ -37,13 +37,14 @@ useEffect(()=>{
 
         <div key={artwork.id} className="chimuseum-card">
 
-        <div key={artwork.id}>
+        <div key={artwork.id} className="museum-image-holder">
         <img src={artwork.thumbnail.lqip} alt={artwork.thumbnail.alt_text} className="museum-image"/>
-        <h4>{artwork.thumbnail.title}</h4>
         </div>
+        <div className='chimuseum-text'>
         <h4><span className='museum-item'>Artwork Classification</span>: {artwork.classification_titles}</h4>
         <h4><span className='museum-item'>Artwork Type</span>: {artwork.artwork_type_title}</h4>
         <h4><span className='museum-item'>Artist</span>: {artwork.artist_titles}</h4>
+        </div>
         
         </div>
         ):null

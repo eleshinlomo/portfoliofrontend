@@ -2,30 +2,50 @@
 
 .container{
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   height: 100%;
   width: 100%;
+  gap: 1rem;
+  background-color: black;
+  
 }
 
 .news-main{
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: auto;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1rem;
   height: 100%;
   width: auto;
+  padding: 1rem 1rem;
+  background-color: black;
+  border: 5px solid crimson;
   
 }
+
+.chicago-main{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  color: white;
+  gap: 1rem;
+  background-color: black;
+  padding: 1rem 1rem;
+  border: 5px solid white;
+  height: 100%;
+  width: auto;
+}
+
 
 .nav{
   display: grid;
   grid-template-columns: auto;
-  grid-auto-flow: column;
-  background-color: bisque;
+  grid-template-rows: auto;
+  background-color: aqua;
   color: black;
   height: 5rem;
   flex-basis: 100%;
-  display: block;
   font-size: small;
   height: 100%;
   width: auto;
@@ -37,7 +57,8 @@
   display: grid;
   height: 100%;
   width: 100%;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
   padding: 0 1rem;
   grid-auto-flow: row;
   
@@ -62,73 +83,91 @@
   font-size: medium;
 }
 
+
+
 .news-card{
   background-color: black;
-  border: 5px solid white;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto;
   height: 100%;
-  width: 100%;
+  gap: 1rem;
+  
 }
 
 .read-more-btn{
+  
   background-color: crimson;
+  
 }
 
 .news-text{
   
-  height: 15rem;
+  
   width: auto;
-  display:block;
+  height: 100%;
+  display: block;
   overflow: hidden;
-  padding: 0 1rem;
-  padding-bottom: 2rem;
   color: white;
+  padding: 0 2rem;
   
 }
 
 .news-image{
-  width: 300px;
+  width: 100%;
   height: 300px;
   object-fit: cover;
   border-radius: 2rem;
+  
+}
+
+.chimuseum-card{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .museum-image{
-  width: 300px;
+  width: 100%;
   height: 300px;
   object-fit: cover;
   border-radius: 2rem;
 }
 
 .news-image-holder{
-  width: auto;
-  height: 15rem;
   display: block;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
-  padding: 1rem 1rem;
   
 }
 
-.chicago-main{
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: auto auto;
+.museum-image-holder{
+  display: block;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+
+.chimuseum-header{
+  display: block;
   color: white;
+  width: auto;
+  height: 100%;
   padding: 2rem 2rem;
-  gap: 1rem;
   background-color: black;
 }
 
-.chimuseum-header{
-  color: red;
-  width: 100%;
-  text-align: center;
-}
-
-.museum-item{
+.chimuseum-text{
+  display: block;
   color: greenyellow;
+  padding: 0 1rem;
+  width: auto;
 }
 
 .footer{
@@ -139,71 +178,54 @@
   padding: 2rem;
 }
 
-@media(max-width: 800px){
-
-
+ @media(max-width: 905px){ 
 
   .container{
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     height: 100%;
     width: 100%;
+    gap: 1rem;
+    background-color: black;
+    margin: auto auto;
+    padding: auto auto;
+    
   }
-
-
   .news-main{
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    gap: 1rem;
     height: 100%;
     width: auto;
+    padding: 1rem 1rem;
+    background-color: black;
+    border: 5px solid crimson;
     
   }
 
   .chicago-main{
     display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     color: white;
-    padding: 2rem 2rem;
     gap: 1rem;
     background-color: black;
-  }
- 
-  .nav{
-    width: auto;
-  }
-
-  .footer{
-    height: 100%;
-    width: auto;
-  }
- 
-
-  .news-text{
-  
-    height: 100%;
-    width: auto;
-    display:block;
-    overflow: hidden;
-    margin: 1rem 1rem;
     padding: 1rem 1rem;
-    color: white;
-    font-size: small;
-  }
-
-  .news-image-holder{
-    width: auto;
+    border: 5px solid white;
     height: 100%;
-    display: block;
-    overflow: hidden;
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
-    
+    width: auto;
   }
+ }
+
+ 
   
-}
+  
+ 
+  
+
 
 
 
