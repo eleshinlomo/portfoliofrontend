@@ -74,8 +74,9 @@
 }
 
 .saas-card button{
-  background-color: crimson;
+  background-color: black;
   border-radius: 4rem;
+  color: white;
 }
 
 
