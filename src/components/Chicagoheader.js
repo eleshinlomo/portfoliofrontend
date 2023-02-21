@@ -1,24 +1,41 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import axios from 'axios'
 
 
 
 const Chicagoheader = () => {
-    const [lead, setLead] = useState([])
+    
 
-    useEffect(()=>{
+   
+   const [data, setData] = useState([])
+   const handleChange = (e)=>{
+    setData(e.target.value)
+   }
 
-        fetch('', {
-            method: "POST",
-            
-        })
+   const submit =(e)=>{
+    e.preventDefault()
+    fetch('http://localhost:3300/addSaasUsers', {
+        method: "POST",
+        mode: "cors",
+        body: {email: data}
+    })
+
+    .then((res)=>{
+        console.log(res)
         
-    }, [])
+    })
+}
+
+
+
   return (
     <div className='saas-main'>
     <div className='saas-card'>
         <h2>ARE YOU A RECRUITER OR DO YOU WORK AS A TALENT AQUISITION PROFESSIONAL?</h2>
-        <p>NEW SaaS WILL BE LAUNCHED WITH ALL FEATURES TO MAKE YOUR TALENT FINDING PROCESS 100 TIMES EASIER</p>
+        <p>NEW SaaS LAUNCHING SOON. SOLUTION IS PACKED WITH ALL FEATURES TO MAKE YOUR TALENT FINDING PROCESS 100 TIMES EASIER.</p>
+        <button>DONT TAKE OUR WORD FOR IT!</button>
+        {/* <div className='saas-text'>
         <ul>
             <li>Saas Features include</li>
             <li>World class CMS to keep up with clients</li>
@@ -29,14 +46,15 @@ const Chicagoheader = () => {
             <li>Ideal Software for every Staffing firm</li>
             <li>And much more...</li>
             <p>Sign up below for a lifetime membership.</p>
-            <form action="/addSaasUsers" method='POST'>
-                <input type="email" name="email" placeholder='enter email' />
-                <button>Submit</button>
+            <form>
+                <input type="email" name="email" onChange={handleChange} value={data} placeholder='enter email' required />
+                <button type='submit' onClick={submit}>Submit</button>
             </form>
 
         </ul>
+        </div> */}
     </div>
-        
+         
     </div>
 
   )

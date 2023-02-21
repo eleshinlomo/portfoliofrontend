@@ -56,6 +56,11 @@
 }
 
 .saas-main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  height: 100%;
+  width: auto;
   color: white;
 }
 
@@ -63,8 +68,14 @@
   background-color: white;
   color: black;
   text-align: center;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 0 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+.saas-card button{
+  background-color: crimson;
+  border-radius: 4rem;
 }
 
 
@@ -81,6 +92,15 @@
   width: auto;
   padding: 1rem 2rem;
  
+}
+
+
+
+.navlist{
+  
+}
+.nav:hover .navlist{
+  transition: transform 1s;
 }
 
 .nav-list{

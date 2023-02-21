@@ -7,6 +7,7 @@ const Header = () => {
     <h1>NOW IS THE MOMENT...RIGHT NOW IS THE MOMENT. LET'S BUILD!</h1>
 
     </div>
+   
   )
 }
 
