@@ -31,6 +31,8 @@ useEffect(()=>{
 
   return (
     <div className='chicago-main'>
+
+<h2 className='chimuseum-header'>CHICAGO MUSEUM VIRTUAL TOUR. SEE CHICAGO MUSEUM AT YOUR COMFORT</h2>
     
 {artworks?
         artworks.slice(0, 8).map(artwork=>
@@ -39,6 +41,7 @@ useEffect(()=>{
 
         <div key={artwork.id} className="museum-image-holder">
         <img src={artwork.thumbnail.lqip} alt={artwork.thumbnail.alt_text} className="museum-image"/>
+
         </div>
         <div className='chimuseum-text'>
         <h4><span className='museum-item'>Artwork Classification</span>: {artwork.classification_titles}</h4>

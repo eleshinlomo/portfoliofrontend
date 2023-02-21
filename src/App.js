@@ -3,8 +3,8 @@ import './App.css'
 import Nav from './components/Nav'
 import News from './components/News'
 import Footer from './components/Footer'
-import Chicagomuseum from './components/Chicagomuseum'
 import Chicagoheader from './components/Chicagoheader'
+import Header from './components/Header'
 
 
 
@@ -20,9 +20,9 @@ return(
 
 <div className='container'>
 <Nav />
+<Header />
 <News />
 <Chicagoheader />
-<Chicagomuseum />
 <Footer />
   
 </div>
