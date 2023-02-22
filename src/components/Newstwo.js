@@ -7,11 +7,11 @@ import { useState, useEffect} from 'react'
 
 
 
-function News() {
+function Newstwo() {
 
   
 const [news, setNews] = useState([])
-const [readmore, setReadmore] = useState(false)
+
   
 
   useEffect(()=>{
@@ -54,7 +54,7 @@ return(
 
 {news?
 
-news.slice(0, 4).map(news=>
+news.slice(5, 9).map(news=>
 <div className='news-card'>
 
 <div class='news-image-holder'>
@@ -91,4 +91,4 @@ news.slice(0, 4).map(news=>
   
 }
 
-export default News
+export default Newstwo

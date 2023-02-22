@@ -35,7 +35,7 @@ const Saas = () => {
     <div className='saas-card'>
         <h2>ARE YOU A RECRUITER OR DO YOU WORK AS A TALENT AQUISITION PROFESSIONAL?</h2>
         <p>NEW SaaS LAUNCHING SOON. SOLUTION IS PACKED WITH ALL FEATURES TO MAKE YOUR TALENT FINDING PROCESS 100 TIMES EASIER.</p>
-        <button onClick={()=>setSaasModal(true)}>DONT TAKE OUR WORD FOR IT!</button>
+        <button onClick={()=>setSaasModal(true)}>TELL ME MORE</button>
         
         {saasModal?
             <div className='saas-modal'>

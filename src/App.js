@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Saas from './components/Saas'
 import Header from './components/Header'
 import Modal from './components/Modal'
+import Newstwo from './components/Newstwo'
 
 
 
@@ -24,6 +25,7 @@ return(
 <Header />
 <News />
 <Saas />
+<Newstwo />
 <Footer />
   
 </div>
