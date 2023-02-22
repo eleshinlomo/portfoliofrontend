@@ -96,12 +96,14 @@
 }
 
 
-
+.nav-btn{
+  padding: 2rem;
+}
 .navlist{
   
 }
 .nav:hover .navlist{
-  transition: transform 1s;
+  
 }
 
 .nav-list{
