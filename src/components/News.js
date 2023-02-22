@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect} from 'react'
-import '../App.css'
+
 
 
 
@@ -11,11 +11,12 @@ function News() {
 
   
 const [news, setNews] = useState([])
+const [readmore, setReadmore] = useState(false)
   
 
   useEffect(()=>{
       
-     fetch('https://portbackend.herokuapp.com/api/news', {
+     fetch('https://portbackend.herokuapp.com/api/news/', {
       method: "GET",
       mode: "cors",
       
@@ -63,7 +64,7 @@ news.slice(0, 8).map(news=>
 <div className='news-text'>
 <h2>{news.title}</h2>
 <h4>Posted on: {news.publishedAt}</h4>
-<button className='read-more-btn'><a href={news.url}>READ MORE</a></button>
+<button className='read-more-btn' onClick={news.url}><a href={news.url}>READ MORE</a></button>
 </div>
 
 
