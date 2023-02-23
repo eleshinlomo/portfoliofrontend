@@ -34,19 +34,22 @@
   }
   
   .saas-modal, saas-overlay{
-    background-color: crimson;
+    display: block;
+    background-color: black;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     position: fixed;
     height: 100vh;
-    width: 100vw;
+    width: auto;
   }
   
   .saas-text{
-    padding: 50px;
-    color: white;
+    display: block;
+    color: aqua;
+    padding: 2rem 2rem;
+    line-height: 2rem;
   }
   
   .saas-btn-close{

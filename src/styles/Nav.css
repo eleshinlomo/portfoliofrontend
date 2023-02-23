@@ -16,22 +16,17 @@
   .nav-btn{
     padding: 2rem;
   }
-  .navlist{
-    
-  }
-  .nav:hover .navlist{
-    
-  }
+ 
   
   .nav-list{
     display: grid;
     height: 100%;
     width: 100%;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: auto;
     padding: 0 1rem;
     grid-auto-flow: row;
-    justify-items: end;
+    
     
   }
   

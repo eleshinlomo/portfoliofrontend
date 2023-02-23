@@ -42,7 +42,7 @@ const Saas = () => {
             <div className='saas-modal'>
         <div className='saas-overlay'></div>
         <ul className='saas-text'>
-            <li>Saas Features include</li>
+            <li>Saas Features include:</li>
             <li>World class CMS to keep up with clients</li>
             <li>World class CMS to keep up with candidates</li>
             <li>Manage Placements with ease</li>
@@ -50,7 +50,7 @@ const Saas = () => {
             <li>Manage Recruiters' performance within your team</li>
             <li>Ideal Software for every Staffing firm</li>
             <li>And much more...</li>
-            <p>Sign up below for a lifetime membership...COMING SOON!</p>
+            <p>Sign up for a lifetime membership...COMING SOON!</p>
         </ul>
         <button className='saas-close-btn' onClick={()=>setSaasModal(false)}>Close</button>
         </div>:null
