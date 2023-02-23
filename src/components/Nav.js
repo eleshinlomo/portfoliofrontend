@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect} from 'react'
+import '../styles/Nav.css'
 
 const Nav = () => {
   const [menu, setMenu] = useState([])
