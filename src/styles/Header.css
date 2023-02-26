@@ -5,7 +5,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 35rem;
     background-position: center;
-    background-color: aqua;
+    background-color: blue;
     background-size: cover;
     background-blend-mode: multiply;
     background-image: url('https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
@@ -14,5 +14,16 @@
   .hero h1{
   
     padding: 4rem 2rem;
+    color: white;
   
+  }
+
+  @media(max-width: 905px){
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 35rem;
+        height: 100%;
+        width: 100%;
+    }
   }

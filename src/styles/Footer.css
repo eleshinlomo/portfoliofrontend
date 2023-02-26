@@ -2,8 +2,9 @@
     display: block;
     height: 100%;
     width: auto;
-    background-color: crimson;
+    background-color: red;
     text-align: center;
+    margin: 1rem 0;
     
   }
   

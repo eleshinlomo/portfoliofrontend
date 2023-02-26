@@ -1,15 +1,13 @@
 .nav{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-    background-color: rgba(33, 33, 34, 0.886);
+    background-color: red;
     color: white;
-    height: 5rem;
-    flex-basis: 100%;
     font-size: small;
     height: 100%;
     width: auto;
-    padding: 1rem 1rem;
+    
    
   }
 
@@ -22,10 +20,9 @@
     display: grid;
     height: 100%;
     width: 100%;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     padding: 0 1rem;
-    grid-auto-flow: row;
     
     
   }
