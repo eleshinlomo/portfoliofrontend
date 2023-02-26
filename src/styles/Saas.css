@@ -42,7 +42,7 @@
     right: 0;
     position: fixed;
     height: 100vh;
-    width: auto;
+    width: 100%;
   }
   
   .saas-text{
