@@ -22,10 +22,10 @@ const Saas = () => {
     })
     .then((result)=>{
         if(!result){
-            return setMessage("There seem to be error with your request. Please check and resend")
+            setMessage("There seem to be error with your request. Please check and resend")
             
         }
-        return setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
+            setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
         
     })
    }
