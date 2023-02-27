@@ -14,7 +14,7 @@ const Saas = () => {
 
    const emailSubmit =(e)=>{
     e.preventDefault()
-    fetch('https://portbackend.herokuapp.com/api/addSaasUsers/',{
+    fetch('https://portbackend.herokuapp.com/api/addSaasUsers',{
         method: "POST",
         mode: "cors",
         headers: {"Content-Type": "application/json"},
@@ -22,10 +22,10 @@ const Saas = () => {
     })
     .then((result)=>{
         if(!result){
-            setMessage("There seem to be error with your request. Please check and resend")
+            return setMessage("There seem to be error with your request. Please check and resend")
             
         }
-            setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
+            return setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
         
     })
    }
