@@ -10,7 +10,7 @@ const Saas = () => {
 
    const [saasModal, setSaasModal] = useState(false)
    const [email, setEmail] = useState([])
-   const [message, setMessage] = useState([])
+   const [message, setMessage] = useState("Please enter email")
 
    const emailSubmit =(e)=>{
     e.preventDefault()
