@@ -10,7 +10,7 @@ const Saas = () => {
 
    const [saasModal, setSaasModal] = useState(false)
    const [email, setEmail] = useState([])
-   const [message, setMessage] = useState("Please enter email")
+   const [message, setMessage] = useState("")
 
    const emailSubmit =(e)=>{
     e.preventDefault()
@@ -35,6 +35,7 @@ const Saas = () => {
     .then((res)=>{
         console.log(res)
         setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
+        window.location.reload(true)
         return res
     })
 
