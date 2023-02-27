@@ -14,7 +14,7 @@ const Saas = () => {
 
    const emailSubmit =(e)=>{
     e.preventDefault()
-    fetch('https://portbackend.herokuapp.com/api/addSaasUsers/',{
+    fetch('http://localhost:3300/api/addSaasUsers/',{
         method: "POST",
         mode: "cors",
         headers: {"Content-Type": "application/json"},
