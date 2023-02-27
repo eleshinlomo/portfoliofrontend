@@ -27,16 +27,11 @@ const Saas = () => {
         if(!result){
             setMessage(`There seem to be error with your request. Please check and resend`)
         }else{
-        return result
+            setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
+            console.log(result)
+            return result
         }
         
-    })
-
-    .then((res)=>{
-        console.log(res)
-        setMessage(`Thank you for showing interest. We have received your email "${email}" and will be reaching out with details once the software launches.`)
-        window.location.reload(true)
-        return res
     })
 
 
