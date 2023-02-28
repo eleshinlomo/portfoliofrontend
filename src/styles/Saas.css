@@ -5,7 +5,7 @@
     height: 100%;
     width: 100%;
     color: white;
-    padding: 0 1rem;
+  
   }
   
   .saas-card{
@@ -25,10 +25,11 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    font-size: medium;
+    font-size: small;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    
   }
 
 
@@ -66,6 +67,7 @@
     display: block;
     height: 100%;
     width: 100%;
+    padding: 0 1rem;
   }
 
  
