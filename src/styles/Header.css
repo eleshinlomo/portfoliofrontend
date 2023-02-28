@@ -5,15 +5,22 @@
     grid-template-columns: 1fr;
     grid-template-rows: 35rem;
     background-position: center;
-    background-color: gold;
+    background-color: grey;
     background-size: cover;
     background-blend-mode: multiply;
     background-image: url('https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
   }
   
-  .hero h1{
+  .hero h2{
   
     padding: 4rem 2rem;
+    color: white;
+    width: 50%;
+  
+  }
+
+  .hero h2{
+  
     color: white;
   
   }

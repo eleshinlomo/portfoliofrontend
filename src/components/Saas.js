@@ -9,9 +9,11 @@ const Saas = () => {
     
 
    const [saasModal, setSaasModal] = useState(false)
-   const [email, setEmail] = useState([])
+   const [email, setEmail] = useState()
    const [message, setMessage] = useState("")
 
+
+  
    const emailSubmit =(e)=>{
     e.preventDefault()
     fetch('https://portbackend.herokuapp.com/api/addSaasUsers',{
@@ -44,14 +46,14 @@ const Saas = () => {
     <div className='saas-main'>
     <div className='saas-card'>
        <div className='saas-card-text'>
-        <h3>ARE YOU A RECRUITER OR DO YOU WORK AS A TALENT AQUISITION PROFESSIONAL?</h3>
+        <p>ARE YOU A RECRUITER OR DO YOU WORK AS A TALENT AQUISITION PROFESSIONAL?</p>
         <p>NEW SaaS LAUNCHING SOON. SOLUTION IS PACKED WITH ALL FEATURES TO MAKE YOUR TALENT FINDING PROCESS 100 TIMES EASIER.</p>
-        <button onClick={()=>setSaasModal(true)}>TELL ME MORE</button>
+        <button className='modal-btn' onClick={()=>setSaasModal(true)}>TELL ME MORE</button>
         </div>
         <div className='saas-form'>
         <form onSubmit={emailSubmit}>
             <input onChange={(e)=>setEmail(e.target.value)} type="email" name="email" id="email" value={email} placeholder="Enter email for lifetime membership" required />
-            <button type='submit'>Submit</button>
+            <button className="email-btn" type='submit'>Submit</button>
         </form>
         </div>
         <div className='saas-message'>

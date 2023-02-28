@@ -1,5 +1,5 @@
-import React from 'react';
-import { useState, useEffect} from 'react';
+import React from 'react'
+import { useState, useEffect} from 'react'
 import '../styles/News.css'
 
 
@@ -8,11 +8,11 @@ import '../styles/News.css'
 
 
 
-function Newstwo() {
+function News() {
 
   
 const [news, setNews] = useState([])
-
+const [readmore, setReadmore] = useState(false)
   
 
   useEffect(()=>{
@@ -55,7 +55,7 @@ return(
 
 {news?
 
-news.slice(3, 6).map(news=>
+news.slice(6, 9).map(news=>
 <div className='news-card'>
 
 <div class='news-image-holder'>
@@ -92,4 +92,4 @@ news.slice(3, 6).map(news=>
   
 }
 
-export default Newstwo
+export default News

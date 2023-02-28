@@ -7,6 +7,8 @@ import Saas from './components/Saas'
 import Header from './components/Header'
 import Modal from './components/Modal'
 import Newstwo from './components/Newstwo'
+import Newsthree from './components/Newsthree'
+import Feedback from './components/Feedback'
 
 
 
@@ -24,8 +26,10 @@ return(
 <Nav />
 <Header />
 <News />
-<Saas />
+<Feedback />
 <Newstwo />
+<Saas />
+<Newsthree />
 <Footer />
   
 </div>

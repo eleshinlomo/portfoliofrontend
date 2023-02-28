@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className='hero'>
 
-    <h1>NOW IS THE MOMENT...RIGHT NOW IS THE MOMENT. LET'S BUILD!</h1>
-
+    <h2>WE USE MODERN TECHNOLOGIES TO MAKE WORLD CLASS APPLICATIONS | START-UP FRIENDLY | WE ARE HERE 24/7 </h2>
+   
     </div>
    
   )

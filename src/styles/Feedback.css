@@ -1,0 +1,69 @@
+.feedback-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    height: 100%;
+    width: auto;
+    margin: 0 2rem;
+    margin-bottom: 8rem;
+    color: black;
+}
+
+.image-holder{
+    height: 100%;
+    width: auto;
+}
+
+.feedback-main form button{
+    background-color: crimson;
+    color: white;
+}
+.form-content{
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.form-content h3{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0 1rem;
+    
+}
+
+.feedback-main form{
+    display: block;
+    width: auto;
+    height: auto;  
+   position: relative;
+   padding: 0 1rem;
+
+}
+
+
+
+.feedback-msg{
+    display: block;
+    padding: 0 1rem;
+}
+
+.feedback-main form input{
+    display: block;
+    width: 20rem;
+    
+}
+
+.feedback-main form textarea{
+    display: block;
+    width: 20rem;
+    height: 10rem;
+
+}
+
