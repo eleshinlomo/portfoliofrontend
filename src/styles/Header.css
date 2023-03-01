@@ -10,7 +10,7 @@
     padding: 2rem 0;
     display: grid;
     height: 100%;
-    width: auto;
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 35rem;
     background-position: center;
@@ -40,9 +40,6 @@
     .hero{
         display: block;
         height: 100%;
-        width: 100%;
-        background-position: center;
-        background-color: grey;
-        background-size: cover;
+        width: auto;
     }
   }
