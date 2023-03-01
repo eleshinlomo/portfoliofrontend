@@ -24,8 +24,8 @@
 .form-content{
     height: 100%;
     width: auto;
-    background-color: black;
-    color: gold;
+    background-color: rgb(255, 6, 6);
+    color: black;
     border: 5px solid white;
     margin: 0 2rem;
     overflow: hidden;
@@ -41,7 +41,8 @@
 .feedback-main form{
     display: block;
     width: auto;
-    height: auto;  
+    height: 100%;  
+    padding: 0 1rem;
    
 
 }

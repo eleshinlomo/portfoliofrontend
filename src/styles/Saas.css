@@ -119,11 +119,12 @@
     position: relative;
     background-color: red;
     color: white;
-    height: 7rem;
+    height: 5rem;
     width: 10rem;
-    border-radius: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
+    justify-content: center;
+    align-content: center;
   }
 
   @media(max-width: 600px){
@@ -131,8 +132,9 @@
     .saas-modal-text{
 
       display: block;
-      padding: 4rem 1rem;
-      margin: 1rem 1rem;
+      height: 100%;
+      width: auto;
+      text-align: center;
 
   }
 }
