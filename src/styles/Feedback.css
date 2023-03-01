@@ -45,6 +45,7 @@
     height: 100%;  
     padding: 0 1rem;
     overflow: hidden;
+    
    
 
 }
@@ -53,7 +54,9 @@
 
 .feedback-msg{
     display: block;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
+    color: white;
+    width: auto;
 }
 
 .feedback-main form input{

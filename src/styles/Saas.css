@@ -32,9 +32,10 @@
 
   .saas-message{
     display: block;
-    width: 100%;
+    width: auto;
     height: 100%;
     margin-bottom: 1rem;
+    padding: 0 1rem;
   
   }
   

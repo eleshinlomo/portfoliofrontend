@@ -43,6 +43,9 @@ const Feedback = () => {
         <img src="https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="random"/>
     </div>
     <div className='form-content' id="feedback">
+    <div className='feedback-msg'>
+            {msg}
+        </div>
     <h3>Tell us about your project and we'll be in touch ASAP.</h3>
         <form onSubmit={submitHandler}>
          <label for="email">Email</label>
@@ -51,9 +54,7 @@ const Feedback = () => {
             <textarea placeholder="Describe your project" id="f-email" type="email"  value={description} onChange={(e)=>setDescription(e.target.value)} />
             <button type="submit">Submit</button>
         </form>
-        <div className='feedback-msg'>
-            {msg}
-        </div>
+        
         </div>
 
         <div className='image-holder'>
