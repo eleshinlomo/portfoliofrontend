@@ -3,8 +3,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     height: 100%;
-    width: 100%;
-    margin-bottom: 8rem;
+    width: auto;
+    margin-bottom: 4rem;
     color: black;
     overflow: hidden;
 }
@@ -12,6 +12,8 @@
 .image-holder{
     height: 100%;
     width: auto;
+    border: 5px solid white;
+    margin: 0 2rem;
 }
 
 .feedback-main form button{
@@ -19,15 +21,18 @@
     color: white;
 }
 .form-content{
-    display: block;
     height: 100%;
-    width: 100%;
-    background-color: rgb(255, 0, 0);
+    width: auto;
+    background-color: black;
+    color: gold;
+    border: 5px solid white;
+    margin: 0 2rem;
 }
 
 .form-content h3{
     display: block;
     padding: 0 1rem;
+    width: auto;
     
 }
 
@@ -63,10 +68,11 @@
 
     .feedback-main{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
         height: 100%;
-        width: 100%;
+        width: auto;
+        gap: 1rem;
     }
 
 }

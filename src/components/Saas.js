@@ -48,8 +48,8 @@ const Saas = () => {
        <div className='saas-card-text'>
         <p>ARE YOU A RECRUITER OR DO YOU WORK AS A TALENT AQUISITION PROFESSIONAL?</p>
         <p>NEW SaaS LAUNCHING SOON. SOLUTION IS PACKED WITH ALL FEATURES TO MAKE YOUR TALENT FINDING PROCESS 100 TIMES EASIER.</p>
-        <button className='modal-btn' onClick={()=>setSaasModal(true)}>TELL ME MORE</button>
         </div>
+        <button className='modal-btn' onClick={()=>setSaasModal(true)}>TELL ME MORE</button>
         <div className='saas-form'>
         <form onSubmit={emailSubmit}>
             <input onChange={(e)=>setEmail(e.target.value)} type="email" name="email" id="email" value={email} placeholder="Enter email for lifetime membership" required />

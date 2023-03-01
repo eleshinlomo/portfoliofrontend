@@ -1,7 +1,16 @@
+.hero-main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 3rem;
+  
+}
+
 .hero{
+    padding: 2rem 0;
     display: grid;
     height: 100%;
-    width: 100%;
+    width: auto;
     grid-template-columns: 1fr;
     grid-template-rows: 35rem;
     background-position: center;
@@ -16,6 +25,8 @@
     padding: 4rem 2rem;
     color: white;
     width: 50%;
+    overflow: hidden;
+    height: 100%;
   
   }
 
@@ -30,5 +41,8 @@
         display: block;
         height: 100%;
         width: 100%;
+        background-position: center;
+        background-color: grey;
+        background-size: cover;
     }
   }

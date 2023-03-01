@@ -6,11 +6,27 @@
     color: white;
     font-size: medium;
     font-weight: bold;
-    height: 5%;
+    height: 10%;
     width: 100%;
     position:fixed;
     
    
+  }
+
+  .logo{
+    
+    height: 3rem;
+    width: 4rem;
+    justify-content: start;
+    align-content: start;
+    padding: 0 1rem;
+    position: relative;
+    
+  }
+
+  .nav-list .nav-item{
+    position: relative;
+    
   }
 
   .nav-btn{
@@ -19,22 +35,19 @@
  
   
   .nav-list{
-    display: grid;
     height: 100%;
-    width: 100%;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: auto;
+    display: flex;
+    justify-self: end;
+    align-self: self-end;
     padding: 0 2rem;
+    gap: 2rem;
+    position: relative;
+  
     
     
   }
   
-  .nav-list-item{
-    height: 100%;
-    width: 100%;
-    color: white;
-    
-  }
+ 
   .nav-list a{
     color: white;
     
@@ -50,11 +63,22 @@
     font-size: medium;
   }
 
-  @media(max-width: 905px){
+  @media(max-width: 350px){
     .nav{
-      height: 5%;
+      height: 15%;
       width: 100%;
 
+    }
+
+    .logo{
+      
+      
+    }
+
+    .nav-list{
+      width: auto;
+      height: auto;
+    
     }
   }
 
