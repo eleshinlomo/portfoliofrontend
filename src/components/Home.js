@@ -14,17 +14,16 @@ import {Route, Routes} from 'react-router-dom'
 const Home = () => {
   return (
 
-    <div className='container' id="nav">
+   <>
 
-    <Nav />
+    
     <Header />
     <News />
     <Feedback />
     <Newstwo />
     <Saas />
     <Newsthree />
-    <Footer />
-    </div>
+    </>
   )
 }
 

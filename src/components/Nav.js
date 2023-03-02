@@ -26,8 +26,8 @@ const Nav = () => {
 
 <div class="nav-list">
   <Link className='nav-item' to="/">Home</Link>
-  <Link className='nav-item' to="/#">Services</Link>
-  <Link className='nav-item' to="/#contact">Contact</Link>
+  <Link className='nav-item' to="/news">News</Link>
+  <Link className='nav-item' to="/contact">Contact</Link>
   </div>
 
 
