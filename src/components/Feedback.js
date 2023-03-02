@@ -42,7 +42,7 @@ const Feedback = () => {
     <div className='image-holder'>
         <img src="https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="random"/>
     </div>
-    <div className='form-content' id="feedback">
+    <div className='form-content' id="contact">
     <div className='feedback-msg'>
             {msg}
         </div>

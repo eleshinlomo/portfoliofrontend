@@ -1,14 +1,10 @@
 import React from 'react'
-import './styles/App.css'
+import{Routes, Route} from 'react-router-dom'
+import Home from './components/Home'
 import Nav from './components/Nav'
-import News from './components/News'
 import Footer from './components/Footer'
-import Saas from './components/Saas'
-import Header from './components/Header'
-import Modal from './components/Modal'
-import Newstwo from './components/Newstwo'
-import Newsthree from './components/Newsthree'
 import Feedback from './components/Feedback'
+import Test from './components/Test'
 
 
 
@@ -22,17 +18,14 @@ function App() {
 return(
     
 
-<div className='container' id="nav">
-<Nav />
-<Header />
-<News />
-<Feedback />
-<Newstwo />
-<Saas />
-<Newsthree />
-<Footer />
+
+<>
+<Routes>
+<Route path="/" element={<Home />}/>
+</Routes>  
+</>                                                                                                                                                                                 
   
-</div>
+
 
     
 )
