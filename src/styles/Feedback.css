@@ -26,6 +26,13 @@
     width: auto;
     margin: 0 2rem;
     overflow: hidden;
+    border-radius: 4rem;
+}
+
+.feedback-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .feedback-main form button{
@@ -40,6 +47,7 @@
     margin: 0 2rem;
     padding: 0 1rem;
     overflow: hidden;
+    border-radius: 2rem;
 }
 
 .form-content h3{
