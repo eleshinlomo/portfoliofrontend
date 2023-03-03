@@ -109,9 +109,6 @@
       position: relative;
       bottom: 100%;
       margin-bottom: 2rem;
-      animation-name: nav;
-      animation-duration: 1s;
-      animation-timing-function: ease-in;
       
     }
 
