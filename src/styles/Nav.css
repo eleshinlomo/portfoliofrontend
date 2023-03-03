@@ -6,48 +6,64 @@
     color: white;
     font-size: medium;
     font-weight: bold;
-    height: 10%;
+    height: 100%;
     width: 100%;
-    margin-bottom: 4rem ;
+  
     
    
   }
 
   .logo{
-    
+    display: block;
     height: 5rem;
-    width: 4rem;
-    justify-content: start;
-    align-content: start;
+    width: 6rem;
+    margin-right: auto;
     padding: 0 1rem;
-    position: relative;
+    
     
   }
 
-  .nav-list .nav-item{
-    position: relative;
-    
+
+.nav-mobile-menu-btn{
+ display: block;
+ position: relative;
+ height: 2rem;
+ left: 70%;
+ bottom: 40%;
+ margin: 0 1rem;
+ 
   }
 
-  .nav-btn{
-    padding: 2rem;
+  .nav-mobile-close-btn{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
  
   
   .nav-list{
-    height: 100%;
     display: flex;
-    justify-self: end;
-    align-self: self-end;
-    padding: 0 2rem;
-    margin: 0 2rem;
+    justify-content: end;
+    align-content: end;
+    padding: 0 1rem;
+    margin: 0 1rem;
     gap: 2rem;
     position: relative;
+    bottom: 30%;
+    animation-name: nav;
+    animation-duration: 1s;
   
-    
-    
+  }
+
+  .nav-item{
+    position: relative;
+
   }
   
+  .nav-list-mobile{
+    display: none;
+  }
  
   .nav-list a{
     color: white;
@@ -64,9 +80,13 @@
     font-size: medium;
   }
 
-  @media(max-width: 350px){
+  
+    
+      
+
+  @media(max-width: 550px){
     .nav{
-      height: 15%;
+      height: 100%;
       width: 100%;
 
     }
@@ -77,10 +97,60 @@
     }
 
     .nav-list{
-      width: auto;
-      height: auto;
+      display: none;
     
+  }
+
+
+    
+
+    .nav-list-mobile{
+      display: block;
+      position: relative;
+      bottom: 100%;
+      margin-bottom: 2rem;
+      animation-name: nav;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+      
     }
+
+    .nav-list-mobile-items{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 3rem 3rem 3rem 2rem;
+      position: absolute;
+      background-color: black;
+      width: 100%;
+      right: 0;
+      height: 30vh;
+      padding-bottom: 1rem;
+      animation-name: nav;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+  
+      
+    }
+
+    .nav-list-mobile-item{
+      
+  display: block;
+  padding: 2rem 2rem;
+      
+      
+    }
+
+    @keyframes nav{
+     from{
+      width: 50%;
+     }
+      to{
+        width: 100%;
+      }
+    }
+
+    
+    
   }
 
   
