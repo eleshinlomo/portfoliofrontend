@@ -7,12 +7,23 @@
     margin-bottom: 4rem;
     color: black;
     overflow: hidden;
+    animation-name: feedback;
+    animation-duration: 1s;
 }
+
+@keyframes feedback{
+    from{
+      
+      height: 0;
+    }
+    to{
+      height:500px;
+    }
+  }
 
 .image-holder{
     height: 100%;
     width: auto;
-    border: 5px solid white;
     margin: 0 2rem;
     overflow: hidden;
 }
@@ -26,7 +37,6 @@
     width: auto;
     background-color: rgb(255, 6, 6);
     color: black;
-    border: 5px solid white;
     margin: 0 2rem;
     padding: 0 1rem;
     overflow: hidden;

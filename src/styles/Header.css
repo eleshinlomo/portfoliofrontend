@@ -3,7 +3,21 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   margin-bottom: 3rem;
+  animation-name: header;
+  animation-duration: 3s;
   
+
+  
+}
+
+@keyframes header{
+  from{
+    
+    height: 0;
+  }
+  to{
+    height:700px;
+  }
 }
 
 .hero{
@@ -41,5 +55,6 @@
         display: block;
         height: 100%;
         width: auto;
+        
     }
   }

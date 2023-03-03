@@ -15,7 +15,7 @@ const Nav = () => {
   
 
   return (
-<nav className='nav'>
+<nav className='nav' id="nav">
 <div className='logo'><a href='/'>
   <img src ="/logo_transparent.png" alt="logo" />
 </a></div>

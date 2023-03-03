@@ -6,10 +6,21 @@
     width: 100%;
     overflow: hidden;
     gap: 1rem;
+    animation-name: news;
+    animation-duration: 1s;
     
 
   }
 
+  @keyframes news{
+    from{
+      
+      height: 0;
+    }
+    to{
+      height:700px;
+    }
+  }
 
 .news-image-holder{
    display: block;
