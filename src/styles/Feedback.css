@@ -64,8 +64,6 @@
     height: 100%;  
     padding: 0 1rem;
     overflow: hidden;
-    
-   
 
 }
 
@@ -95,13 +93,29 @@
 
     .feedback-main{
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
         height: 100%;
         width: auto;
         gap: 1rem;
         
     }
 
-}
+    .image-holder{
+        display: block;
+        height: 100%;
+        width: auto;
+        margin: 0 2rem;
+        overflow: hidden;
+        border-radius: 4rem;
+    }
 
+    .feedback-main form{
+        display: block;
+        width: auto;
+        height: 100%;  
+        padding: 0 1rem;
+        overflow: hidden;
+    
+    }
+}

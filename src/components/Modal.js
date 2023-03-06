@@ -24,9 +24,7 @@ const Modal = () => {
         <button className='close-btn' onClick={()=>setModal(false)}>
             Close
         </button>
-        <div>
-        <p>Hello shsjhsjsjsjjsjslkasknaskkn</p>
-    </div>
+        
         </div>:null
     }
     

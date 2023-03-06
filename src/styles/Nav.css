@@ -39,6 +39,7 @@
     height: 2rem;
     margin-left: 2rem;
     margin-top: 2rem;
+    font-size: larger;
   }
  
   
@@ -115,7 +116,7 @@
     .nav-list-mobile-items{
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 3rem 3rem 3rem 2rem;
+      grid-template-rows: 3rem 3rem 3rem 3rem 2rem;
       position: absolute;
       background-color: black;
       width: 100%;

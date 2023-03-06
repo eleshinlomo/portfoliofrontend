@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Feedback from './components/Feedback'
 import Allnews from './components/News'
+import Newsaas from './components/Newsaas'
 
 
 
@@ -26,6 +27,7 @@ return(
 <Route path="/" element={<Home />}/>
 <Route path="/news" element={<Allnews />}/>
 <Route path="/contact" element={<Feedback />}/>
+<Route path="/projects" element={<Newsaas />}/>
 </Routes>  
 <Footer /> 
 </div>                                                                                                                                                                                 

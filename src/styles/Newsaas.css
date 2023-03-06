@@ -1,0 +1,35 @@
+.image-holder{
+    background-color: aqua;
+    background-image: url('/public/open_crm.png');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35rem;
+    position: relative;
+}
+
+.image-holder h3 {
+    position: relative;
+    top: 10%;
+    left: 60%;
+}
+
+.optimize{
+    display: none;
+}
+
+@media(max-width: 950px){
+    .image-holder{
+        position: relative;
+        display: none;
+    }
+
+    .optimize{
+       position: relative;
+       margin: 8rem 0;
+        text-align: center;
+        color: red;
+        display: block;
+    }
+}
