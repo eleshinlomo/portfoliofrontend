@@ -3,12 +3,23 @@ import '../styles/Newsaas.css'
 
 const Newsaas = () => {
   return (
-    <>
-    <div className='image-holder'>
-    <h3>New CRM Solution  launching in 5 days. Ideal for all start-ups</h3>
+    <div className='newsaas-main'>
+
+    <div className='newsaas-image-holder'>
+    <div className='project-one'>
+    <h3>ALL-PURPOSE CRM(Coming soon...)</h3>
+    <img src="/open_crm2.png" alt="portfolio project name: All-purpose crm" className='newsaas-image' />
+    <button><a href="#">VIEW SITE</a></button>
     </div>
-    <div className='optimize'>This page is not optimized for mobile view</div>
-    </>
+
+    <div className='project-two'>
+    <h3>YouTube Channel Crawler</h3>
+    <img src="/youtube_search.png" alt="portfolio project name: All-purpose crm" className='newsaas-image' />
+    <button><a href="https://ytcrawler.netlify.app/">VIEW SITE</a></button>
+    </div>
+
+    </div>
+    </div>
     
   )
 }

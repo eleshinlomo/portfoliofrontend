@@ -1,35 +1,56 @@
-.image-holder{
-    background-color: aqua;
-    background-image: url('/public/open_crm.png');
-    background-size: cover;
-    background-position: center;
+.newsaas-main{
     display: grid;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 35rem;
-    position: relative;
+    grid-template-rows: 1fr;
 }
 
-.image-holder h3 {
-    position: relative;
-    top: 10%;
-    left: 60%;
+
+
+.newsaas-image-holder{
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    grid-template-rows: auto auto;
+    margin: 2rem 0;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    justify-self: center;
+
 }
 
-.optimize{
-    display: none;
+
+.newsaas-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-@media(max-width: 950px){
-    .image-holder{
-        position: relative;
-        display: none;
+ h3 {
+    display: block;
+    color: white;   
+}
+
+button{
+    display: block;
+    background-color: red;
+    justify-content: center;
+}
+
+
+
+@media(max-width: 900px){
+
+    .newsaas-image-holder{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        padding: auto auto;
+        margin: 3rem 0;
+        gap: 6rem;
+        justify-self: center;
+    
     }
-
-    .optimize{
-       position: relative;
-       margin: 8rem 0;
-        text-align: center;
-        color: red;
-        display: block;
-    }
+  
 }

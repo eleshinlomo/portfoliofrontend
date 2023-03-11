@@ -40,6 +40,7 @@ return (
   <button className='nav-mobile-close-btn' onClick={()=>setMenu(false)}>X</button>
   <li className='nav-list-mobile-item'><Link to="/">Home</Link></li>
   <li className='nav-list-mobile-item'><Link  to="/news">News</Link></li>
+  <li className='nav-list-mobile-item'><Link  to="/projects">Projects</Link></li>
   
   </ul>
   
