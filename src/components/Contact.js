@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import '../styles/Feedback.css'
-import '../styles/App.css'
+import '../styles/Contact.css'
+
 
 const Feedback = () => {
     const [email, setEmail] = useState("")
@@ -38,10 +38,7 @@ const Feedback = () => {
     }
     
   return (
-    <div className='feedback-main'>
-    <div className='image-holder'>
-        <img src="https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className='feedback-image' alt="random"/>
-    </div>
+    
     <div className='form-content' id="contact">
     <div className='feedback-msg'>
             {msg}
@@ -56,11 +53,7 @@ const Feedback = () => {
         </form>
         
         </div>
-
-        <div className='image-holder'>
-        <img src="https://images.unsplash.com/photo-1665686304355-0b09b1e3b03c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className='feedback-image' alt="random"/>
-    </div>
-    </div>
+    
   )
 }
 

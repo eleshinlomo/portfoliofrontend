@@ -21,7 +21,7 @@ return (
   </Link></li>
   <ul class="nav-list">
   <li className='nav-item'><Link to="/">Home</Link></li>
-  <li className='nav-item'><Link  to="/news">News</Link></li>
+  <li className='nav-item'><Link  to="/contact">Contact</Link></li>
   <li className='nav-item'><Link  to="/projects">Projects</Link></li>
   </ul>
   </ul>
@@ -39,7 +39,7 @@ return (
   <ul className="nav-list-mobile-items">
   <button className='nav-mobile-close-btn' onClick={()=>setMenu(false)}>X</button>
   <li className='nav-list-mobile-item'><Link to="/">Home</Link></li>
-  <li className='nav-list-mobile-item'><Link  to="/news">News</Link></li>
+  <li className='nav-list-mobile-item'><Link  to="/contact">Contact</Link></li>
   <li className='nav-list-mobile-item'><Link  to="/projects">Projects</Link></li>
   
   </ul>

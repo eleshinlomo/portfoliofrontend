@@ -8,7 +8,7 @@ import Header from './Header'
 import Modal from './Modal'
 import Newstwo from './Newstwo'
 import Newsthree from './Newsthree'
-import Feedback from './Feedback'
+import Feedback from './Contact'
 import {Route, Routes} from 'react-router-dom'
 import Newsaas from './Projects'
 
@@ -20,7 +20,6 @@ const Home = () => {
     
     <Header />
     <News />
-    <Feedback />
     <Newstwo />
     <Saas />
     <Newsthree />

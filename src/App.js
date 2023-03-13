@@ -3,8 +3,8 @@ import{Routes, Route} from 'react-router-dom'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import Feedback from './components/Feedback'
-import Allnews from './components/News'
+import Feedback from './components/Contact'
+import Contact from './components/Contact'
 import Projects from './components/Projects'
 
 
@@ -25,7 +25,7 @@ return(
 <Nav />
 <Routes>
 <Route path="/" element={<Home />}/>
-<Route path="/news" element={<Allnews />}/>
+<Route path="/contact" element={<Contact />}/>
 <Route path="/contact" element={<Feedback />}/>
 <Route path="/projects" element={<Projects />}/>
 </Routes>  

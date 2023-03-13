@@ -1,0 +1,154 @@
+
+
+@keyframes feedback{
+    from{
+      
+      height: 0;
+    }
+    to{
+      height:500px;
+    }
+  }
+
+.image-holder{
+    height: 100%;
+    width: auto;
+    margin: 0 2rem;
+    overflow: hidden;
+    border-radius: 4rem;
+}
+
+.feedback-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.form-content form button{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.form-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    width: auto;
+    margin: 0 1rem;
+    background-color: rgb(255, 6, 6);
+    color: black;
+    margin-top: 6rem;
+    padding: 0 1rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    animation-name: feedback;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+
+.form-content h3{
+    padding: 0 1rem;
+    width: auto;
+    text-align: center;
+    
+}
+
+.form-content form{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    width: auto;
+    height: 100%;  
+    padding: 0 1rem;
+    margin: 0 1rem;
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+
+.feedback-msg{
+    display: block;
+    padding: 1rem 1rem;
+    color: white;
+    width: auto;
+}
+
+.form-content form input{
+    padding: 0 1rem;
+    height: 2rem;
+    width: 20rem;
+    
+}
+
+.form-content form textarea{
+    height: 15rem;
+    width: auto;
+    padding: 0 1rem;
+
+}
+
+@media(max-width: 400px){
+    
+    .form-content{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        width: auto;
+        height: auto;
+        margin: 0 1rem;
+        background-color: rgb(255, 6, 6);
+        color: black;
+        margin-top: 6rem;
+        padding: 0 1rem;
+        overflow: hidden;
+        border-radius: 2rem;
+        animation-name: feedback;
+        animation-duration: 1s;
+        overflow: hidden;
+    }
+
+    .form-content form{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        width: auto;
+        height: auto;  
+        overflow: hidden;
+        justify-self: center;
+        align-self: center;
+    
+    }
+
+    
+
+
+    .form-content form input{
+        padding: 0 1rem;
+        height: 2rem;
+        width: 100%;
+        
+    }
+    
+    .form-content form textarea{
+        height: 15rem;
+        width: 100%;
+        padding: 0 1rem;
+    
+    }
+
+    .form-content form button{
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+        
+    
+    
+
+   
+
+   
+}
