@@ -10,7 +10,7 @@ import Newstwo from './Newstwo'
 import Newsthree from './Newsthree'
 import Feedback from './Feedback'
 import {Route, Routes} from 'react-router-dom'
-import Newsaas from './Newsaas'
+import Newsaas from './Projects'
 
 const Home = () => {
   return (
