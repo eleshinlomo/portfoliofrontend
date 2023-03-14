@@ -69,11 +69,14 @@
 
 
 
-.feedback-msg{
+.contact-msg{
     display: block;
-    padding: 1rem 1rem;
-    color: white;
+    padding: 3rem 1rem;
+    color: gold;
     width: auto;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .form-content form input{

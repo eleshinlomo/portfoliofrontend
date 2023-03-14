@@ -40,7 +40,7 @@ const Feedback = () => {
   return (
     
     <div className='form-content' id="contact">
-    <div className='feedback-msg'>
+    <div className='contact-msg'>
             {msg}
         </div>
     <h3>Tell us about your project and we'll be in touch ASAP.</h3>
