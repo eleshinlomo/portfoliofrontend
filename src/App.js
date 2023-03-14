@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Feedback from './components/Contact'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
+import Privacy from './components/Privacy'
 
 
 
@@ -28,6 +29,7 @@ return(
 <Route path="/contact" element={<Contact />}/>
 <Route path="/contact" element={<Feedback />}/>
 <Route path="/projects" element={<Projects />}/>
+<Route path="/privacy" element={<Privacy />}/>
 </Routes>  
 <Footer /> 
 </div>                                                                                                                                                                                 

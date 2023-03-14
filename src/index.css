@@ -27,7 +27,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-image: radial-gradient(  blue 60% , transparent);
   scroll-behavior: smooth;
 }
 img{
