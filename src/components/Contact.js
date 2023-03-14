@@ -43,7 +43,7 @@ const Feedback = () => {
     <div className='contact-msg'>
             {msg}
         </div>
-    <h3>Tell us about your project and we'll be in touch ASAP.</h3>
+    <h3>We are happy to hear from you.</h3>
         <form onSubmit={submitHandler}>
          <label for="email">Email</label>
             <input placeholder="Enter email here" id="f-email" type="email"  value={email} onChange={(e)=>setEmail(e.target.value)} />
