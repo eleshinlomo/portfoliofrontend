@@ -19,7 +19,6 @@
     margin-right: auto;
     padding: 0 1rem;
     
-    
   }
 
 
@@ -92,7 +91,9 @@
     }
 
     .logo{
-      
+      display: block;
+      height: 5rem;
+      width: 5rem;
       
     }
 

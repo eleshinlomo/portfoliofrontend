@@ -7,6 +7,7 @@ import Feedback from './components/Contact'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Privacy from './components/Privacy'
+import Notfound from './components/Notfound'
 
 
 
@@ -30,6 +31,7 @@ return(
 <Route path="/contact" element={<Feedback />}/>
 <Route path="/projects" element={<Projects />}/>
 <Route path="/privacy" element={<Privacy />}/>
+<Route path="/*" element={<Notfound />}/>
 </Routes>  
 <Footer /> 
 </div>                                                                                                                                                                                 
